@@ -7,6 +7,6 @@ resource "aws_instance" "three" {
   instance_type = "t2.medium"
   key_name      = "apr6pm"
   tags = {
-    Name = "n.virginia-server"
+    Name = "mumbai-server"
   }
 }
