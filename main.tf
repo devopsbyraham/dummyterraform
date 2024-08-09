@@ -11,3 +11,7 @@ resource "aws_instance" "three" {
     Name = "mumbai-server"
   }
 }
+
+resource "aws_s3_bucket" "abcd" {
+bucket = "devopsherahamshaik0099889977hcp"
+}
